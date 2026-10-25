@@ -1,1 +1,1 @@
-0.4.0 (M3b Geomancy)
+0.4.1 (Terror Zone config fix)

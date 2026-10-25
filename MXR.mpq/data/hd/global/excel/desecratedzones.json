@@ -1,0 +1,45 @@
+{
+    "desecrated_zones": [
+        {
+            "start_time_utc": "2020-01-01 00:00:00",
+            "end_time_utc": "2099-12-31 23:59:59",
+            "terror_duration_min": 60,
+            "terror_break_min": 0,
+            "seed": 1,
+            "non_ladder_enabled": false,
+            "enabled_normal": false,
+            "enabled_nightmare": false,
+            "enabled_hell": false,
+            "default_normal": {
+                "bound_incl_min": 3,
+                "bound_incl_max": 45,
+                "boost_level": 0,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 0
+            },
+            "default_nightmare": {
+                "bound_incl_min": 40,
+                "bound_incl_max": 71,
+                "boost_level": 0,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 0
+            },
+            "default_hell": {
+                "bound_incl_min": 70,
+                "bound_incl_max": 91,
+                "boost_level": 0,
+                "difficulty_scale": 1,
+                "boost_experience_percent": 0
+            },
+            "warnings": [
+                { "announce_time_min": 10, "tier": 1 },
+                { "announce_time_min": 5, "tier": 2 },
+                { "announce_time_min": 1, "tier": 3 },
+                { "announce_time_min": 0, "tier": 0 }
+            ],
+            "zones": [
+                { "id": 1, "levels": [ { "level_id": 2 } ] }
+            ]
+        }
+    ]
+}
